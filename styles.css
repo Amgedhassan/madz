@@ -1,0 +1,498 @@
+                * {
+                    margin: 0;
+                    padding: 0;
+                    box-sizing: border-box;
+                }
+                
+                .container-fluid {
+                    margin: 0;
+                    padding: 0;
+                }
+                
+                body {
+                    background-color: #0c313f;
+                    font-family: 'Montserrat', sans-serif;
+                    color: #ffff;
+                }
+                
+                .navbar,
+                .hero_head,
+                .top-bar,
+                .story_content,
+                .why_madz_boxs,
+                .why_madz,
+                .services_intro,
+                .services,
+                .workflow_content,
+                .partners,
+                .team,
+                #action,
+                footer {
+                    padding: 16px 150px;
+                }
+                
+                .navbar-dark .navbar-nav .nav-link {
+                    color: #ffff;
+                }
+                
+                .navbar-brand>img {
+                    width: 200px;
+                }
+                
+                .nav-item {
+                    font-size: 18px;
+                    font-weight: 400;
+                    padding-right: 0;
+                    text-transform: uppercase;
+                    margin-left: 40px;
+                }
+                
+                .nav-item+.blog {
+                    background-color: #EBB764;
+                }
+                
+                .nav-link {
+                    color: #ffff;
+                }
+                
+                .top-bar {
+                    background-color: #061E23;
+                    padding-top: 8px;
+                    padding-bottom: 8px;
+                }
+                
+                .information_top {
+                    text-align: right;
+                }
+                
+                .information_top a {
+                    margin-left: 8px;
+                }
+                
+                h1 {
+                    font-size: 150px;
+                    font-weight: 900;
+                    text-transform: uppercase;
+                    margin-bottom: 0;
+                }
+                
+                h1>span,
+                .why_madz>p>span {
+                    color: #EBB764;
+                }
+                
+                .hero_head {
+                    align-items: flex-end;
+                    margin-top: 24px;
+                }
+                
+                .hero_text {
+                    font-size: 26px;
+                    margin-left: 104px;
+                    border-left: 2px solid #ffff;
+                    height: fit-content;
+                    padding: 8px 24px;
+                }
+                
+                .hero_text>span {
+                    font-weight: bold;
+                }
+                /* MADZ STORY */
+                
+                #madz_story,
+                #madz_advantages,
+                #madz_services,
+                #workflow,
+                #madz_partners,
+                #madz_clients,
+                #madz_team {
+                    margin-top: 104px;
+                }
+                
+                h2 {
+                    text-align: center;
+                    position: relative;
+                    font-size: 50px;
+                    font-weight: bold;
+                    text-transform: uppercase;
+                }
+                
+                h2::after {
+                    position: absolute;
+                    background-color: #EBB764;
+                    width: 20%;
+                    height: 2px;
+                    content: "";
+                    top: 50px;
+                    left: 40%;
+                    margin-top: 8px;
+                }
+                
+                .story_content {
+                    align-items: center;
+                    justify-content: center;
+                    padding: 0px 150px;
+                    height: fit-content;
+                }
+                
+                .story_content>p {
+                    font-size: 40px;
+                    font-weight: 400;
+                }
+                
+                .story_content>p>span {
+                    font-weight: bold;
+                }
+                /* WHY MADZ */
+                
+                .why_madz {
+                    font-size: 32px;
+                    font-weight: bold;
+                }
+                
+                .why_madz_boxs,
+                .services {
+                    flex-wrap: wrap;
+                    width: 100%;
+                    justify-content: center;
+                }
+                
+                .why_box {
+                    width: 50%;
+                    align-items: center;
+                    padding-left: 2.5%;
+                    margin-bottom: 48px;
+                }
+                
+                .why_text>h3,
+                .why_text>p {
+                    margin-left: 24px;
+                }
+                
+                h3 {
+                    font-size: 32px;
+                    font-weight: bold;
+                    color: #EBB764;
+                }
+                
+                .why_text>p,
+                .service_text>p {
+                    font-size: 24px;
+                    font-weight: 400;
+                }
+                /* SERVICES */
+                
+                .service_box {
+                    align-items: center;
+                    margin-top: 24px;
+                }
+                
+                .service_button {
+                    color: #0C313F;
+                    background-color: #EBB764;
+                    border-radius: 100px;
+                    padding: 12px 16px;
+                    font-size: 32px;
+                    font-weight: bold;
+                    text-decoration: none;
+                    text-transform: uppercase;
+                }
+                
+                .service_button:hover {
+                    color: #0C313F;
+                    background-color: #c99d56;
+                    transition: all 0.2s;
+                }
+                
+                .services_intro {
+                    text-align: center;
+                    color: #EBB764;
+                    font-size: 30px;
+                    font-weight: 800;
+                }
+                
+                .service_text {
+                    margin-left: 48px;
+                }
+                
+                .service_text>p>span {
+                    font-weight: bold;
+                    display: block;
+                }
+                /* WORKFLOW */
+                
+                .workflow_content {
+                    align-items: center;
+                }
+                
+                .workflow_text {
+                    font-size: 24px;
+                    margin-right: 56px;
+                }
+                
+                .why_madz:last-of-type {
+                    padding-bottom: 0;
+                }
+                
+                .why_madz>p:last-of-type {
+                    margin-bottom: 0;
+                }
+                
+                .workflow_text>p:first-child {
+                    margin-top: 0;
+                }
+                
+                .workflow_text>p>span {
+                    color: #EBB764;
+                }
+                
+                .workflow_text>p:last-child {
+                    color: #EBB764;
+                    font-weight: 700;
+                }
+                /* PARTNERS */
+                
+                .partners {
+                    justify-content: space-between;
+                    align-items: center;
+                }
+                /* TEAM */
+                
+                .team {
+                    flex-wrap: wrap;
+                    justify-content: space-between;
+                    align-items: center;
+                    padding-top: 64px;
+                }
+                
+                .team_member {
+                    text-align: center;
+                    margin-bottom: 48px;
+                }
+                
+                .team_member>h4 {
+                    text-transform: capitalize;
+                    font-size: 36px;
+                    font-weight: 700;
+                }
+                
+                .team_member>p {
+                    color: #EBB764;
+                    font-size: 30px;
+                    text-transform: capitalize;
+                }
+                /* ACTION */
+                
+                #action {
+                    text-align: center;
+                }
+                
+                #action>h3 {
+                    font-size: 70px;
+                    color: #ffff;
+                    text-transform: uppercase;
+                }
+                
+                #action>p {
+                    font-size: 44px;
+                    font-weight: 500;
+                    margin-top: 24px;
+                }
+                /* FOOTER */
+                
+                footer {
+                    background-color: #0A2B35;
+                    margin-top: 104px;
+                    justify-content: space-between;
+                    align-items: center;
+                    font-size: 16px;
+                }
+                
+                .quick_links>ul>li:first-child,
+                .contact>ul>li:first-child {
+                    font-size: 18px;
+                    font-weight: 800;
+                    text-transform: uppercase;
+                    margin-bottom: 16px;
+                }
+                
+                .quick_links a {
+                    text-decoration: none;
+                    color: #ffff;
+                }
+                
+                footer ul>li {
+                    list-style-type: none;
+                }
+                
+                footer ul>li>img {
+                    margin-right: 8px;
+                }
+                
+                .contact>ul>li {
+                    align-items: flex-start;
+                }
+                
+                .contact>ul>li>a>img {
+                    margin-left: 8px;
+                }
+                /* QUERIES */
+                
+                @media screen and (max-width: 1024px) {
+                    .navbar,
+                    .hero_head,
+                    .top-bar,
+                    .story_content,
+                    .why_madz_boxs,
+                    .why_madz,
+                    .services_intro,
+                    .services,
+                    .workflow_content,
+                    .partners,
+                    .team,
+                    #action,
+                    footer {
+                        padding: 16px 16px;
+                    }
+                    .story_content {
+                        align-items: center;
+                        justify-content: space-between;
+                    }
+                    .why_box {
+                        width: 100%;
+                        align-items: center;
+                        padding-left: 2.5%;
+                        margin-bottom: 48px;
+                    }
+                    .service_button {
+                        display: inline-block;
+                    }
+                    .nav-item {
+                        margin-left: 8px;
+                    }
+                    .hero_text {
+                        margin-left: 24px;
+                    }
+                    .partners {
+                        flex-wrap: wrap;
+                    }
+                }
+                
+                @media screen and (max-width: 991px) {
+                    h1 {
+                        font-size: 96px;
+                    }
+                    h2 {
+                        font-size: 36px;
+                    }
+                    .story_content>p {
+                        font-size: 28px;
+                    }
+                    .why_madz {
+                        font-size: 24px;
+                    }
+                    h3 {
+                        font-size: 18px;
+                    }
+                    .why_text>p,
+                    .service_text>p {
+                        font-size: 18px;
+                    }
+                    .service_button {
+                        font-size: 16px;
+                    }
+                    .services_intro {
+                        font-size: 24px;
+                    }
+                    .workflow_text {
+                        font-size: 18px;
+                    }
+                    .partners {
+                        padding-top: 16px;
+                        flex-direction: column;
+                    }
+                    .partners>img {
+                        margin-top: 32px;
+                    }
+                    .team {
+                        flex-direction: column;
+                    }
+                    #action>h3 {
+                        font-size: 40px;
+                    }
+                    footer>img {
+                        display: block;
+                    }
+                    .quick_links,
+                    .contact {
+                        margin: 0;
+                    }
+                    footer {
+                        flex-wrap: wrap;
+                        flex-direction: column;
+                        justify-content: first baseline;
+                        align-items: baseline;
+                    }
+                }
+                
+                @media screen and (max-width: 780px) {
+                    .hero_head {
+                        flex-direction: column;
+                        align-items: flex-start;
+                    }
+                    .hero_text {
+                        margin-left: 0;
+                        margin-top: 16px;
+                    }
+                    h1 {
+                        font-size: 72px;
+                    }
+                    h2 {
+                        font-size: 28px;
+                    }
+                    h2::after {
+                        margin-top: 0;
+                    }
+                    .story_content {
+                        padding: 0 8px;
+                        margin-top: 40px;
+                    }
+                    .story_content>p {
+                        font-size: 18px;
+                    }
+                    #madz_story img {
+                        width: 50%;
+                    }
+                    #madz_advantages img {
+                        width: 25%;
+                    }
+                    #madz_services img {
+                        width: 25%;
+                    }
+                    .why_madz {
+                        font-size: 20px;
+                    }
+                    h3 {
+                        font-size: 20px;
+                    }
+                    .why_text>p,
+                    .service_text>p {
+                        font-size: 18px;
+                    }
+                    .service_box {
+                        align-items: flex-start;
+                        margin-top: 48px;
+                    }
+                    .service_button {
+                        font-size: 18px;
+                    }
+                    .services_intro {
+                        font-size: 20px;
+                    }
+                    .workflow_text {
+                        font-size: 18px;
+                    }
+                    .workflow_content {
+                        flex-direction: column;
+                    }
+                }
