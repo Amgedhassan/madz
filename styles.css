@@ -304,7 +304,7 @@
                     background-color: #0A2B35;
                     margin-top: 104px;
                     justify-content: space-between;
-                    align-items: center;
+                    align-items: flex-start;
                     font-size: 16px;
                 }
                 
@@ -422,6 +422,7 @@
                     }
                     footer>img {
                         display: block;
+                        width: 70%;
                     }
                     .quick_links,
                     .contact {
